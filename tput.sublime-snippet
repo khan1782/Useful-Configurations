@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+
+############################
+puts "*" * `tput cols`.chomp.to_i
+puts ""
+puts ""
+puts "-" * (((`tput cols`.chomp.to_i)/2)-10) + "LOOK OVER HERE" + "-" * (((`tput cols`.chomp.to_i)/2)-10)
+puts ""
+puts "$1"
+puts ""
+puts "-" * `tput cols`.chomp.to_i
+puts ""
+puts ""
+puts "*" * `tput cols`.chomp.to_i
+############################
+
+]]></content>
+
+<tabTrigger>tput</tabTrigger>
+<scope>source.ruby</scope>
+</snippet>
