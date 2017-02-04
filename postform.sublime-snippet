@@ -1,0 +1,13 @@
+
+<snippet>
+  <content><![CDATA[<form action="$1" method="post">
+  <input type="${2:text}:" name="$3">
+  <input type="${4:text}:" name="$5">
+  ${8:<input type="${6:text}:" name="$7">}
+  ${11:<input type="${9:text}:" name="$10">}
+  <input type="submit" value="${12:submit}">
+</form>]]></content>
+  <tabTrigger>postform</tabTrigger>
+  <scope>text.html.ruby</scope>
+  <description>Create a post form in erb file ERB</description>
+</snippet>
