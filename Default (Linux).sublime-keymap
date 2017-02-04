@@ -1,6 +1,10 @@
 [
-	{"keys": ["ctrl+up"], "command": "move_to", "args": {"to": "eol", "extend": false} },
-	{"keys": ["ctrl+down"], "command": "move_to", "args": {"to": "bol", "extend": false} }
+	{"keys": ["ctrl+down"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+	{"keys": ["ctrl+up"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+
+	{"keys": ["ctrl+shift+down"], "command": "move_to", "args": {"to": "eol", "extend": true}},
+	{"keys": ["ctrl+shift+up"], "command": "move_to", "args": {"to": "bol", "extend": true}} 
+
 ]
 
 
