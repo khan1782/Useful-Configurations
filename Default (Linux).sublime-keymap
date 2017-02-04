@@ -1,0 +1,7 @@
+[
+	{"keys": ["ctrl+up"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+	{"keys": ["ctrl+down"], "command": "move_to", "args": {"to": "bol", "extend": false} }
+]
+
+
+
