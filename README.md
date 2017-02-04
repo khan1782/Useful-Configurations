@@ -3,6 +3,7 @@ __Installing Sublime Snippets:__
 
 Copy snippets with .sublime-snippet file extensions to your sublime snippet file.
 You can access this file with
+
 	Preferences -> Browse Packages -> User
 
 __________________________________________________________________
