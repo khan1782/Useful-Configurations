@@ -1,7 +1,7 @@
 # Useful-Configurations
 ### ERB snippets
-```ruby
-create_table-tab    -   
+create_table-tab
+```ruby   
 create_table :${1:plural} do |t|
 	t.${2:string} :${3:column}${4:, {null: false\}}
 	t.${5:string} :${6:column}${7:, {null: false\}}
