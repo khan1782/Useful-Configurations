@@ -1,7 +1,7 @@
 # Useful-Snippets #
 
 __________________________________________________________________
-### Sinatra Migration Snippets
+### Sinatra Migration Snippets ###
 
 __create migration table__
 
