@@ -32,17 +32,17 @@ class User < ActiveRecord::Base
     end
   end
 
-  def authenticate?(password)
-      self.password == password
+	def authenticated?(password)
+    self.password == password
   end
 
   def password
-    @password ||= Password.new(hashed_password)
+    @password ||= BCrypt::Password.new(hashed_password)
   end
 
   def password=(new_password)
     @raw_password = new_password
-    @password = Password.create(@raw_password)
+    @password = BCrypt::Password.create(@raw_password)
     self.hashed_password = password
   end
 
