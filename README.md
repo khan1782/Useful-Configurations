@@ -1,6 +1,9 @@
 # Useful-Configurations
 ### ERB snippets
-create_table-tab
+
+### Sinatra Migration Snippets
+#### create migration table
+create_table-*tab*
 ```ruby   
 create_table :${1:plural} do |t|
 	t.${2:string} :${3:column}${4:, {null: false\}}
@@ -11,4 +14,8 @@ create_table :${1:plural} do |t|
 end
 ```
 
-### Sinatra Migration File Snippets
+### Sinatra Controller Snippets 
+delete http request
+```ruby
+
+```
