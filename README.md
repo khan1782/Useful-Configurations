@@ -6,7 +6,6 @@ __________________________________________________________________
 __create migration table__
 
 	create_table-*tab*
-	
 	```ruby   
 	create_table :${1:plural} do |t|
 		t.${2:string} :${3:column}${4:, {null: false\}}
