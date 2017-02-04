@@ -1,0 +1,11 @@
+ <snippet>
+   <content><![CDATA[get '/${1:entries}' do
+  $3
+	erb :'${1:entries}/${2:index}'
+end]]></content>
+ 
+ <tabTrigger>getshow</tabTrigger>
+ <scope>source.ruby</scope>
+ </snippet>
+
+ 
