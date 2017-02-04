@@ -5,7 +5,7 @@ __________________________________________________________________
 
 __create migration table__
 
-	create_table-*tab*
+create_table-*tab*
 	
 ```ruby
 	create_table :${1:plural} do |t|
@@ -21,7 +21,7 @@ __________________________________________________________________
 ### ERB snippets ###
 __html form for post request__
 
-	formpost-*tab*
+formpost-*tab*
 	
 ```html
 	<form action="$1" method="post">
@@ -35,7 +35,7 @@ __html form for post request__
 
 __html form for delete request__
 
-	formdelete-*tab*
+formdelete-*tab*
 	
 ```html
 	<form action="$1" method="post">
@@ -47,7 +47,7 @@ __html form for delete request__
 	
 __html form for put request__
 
-	formput-*tab*
+formput-*tab*
 	
 ```html
 	<form action="$1" method="post">
@@ -59,14 +59,14 @@ __html form for put request__
 
 __html embedded ruby__
 
-	er-*tab*
+er-*tab*
 	
 ```html
 	<% $0 %>
 ```
 __html display embedded ruby__
 
-	pe-*tab*
+pe-*tab*
 	
 ```html
 	<%= $0 %>
@@ -74,7 +74,7 @@ __html display embedded ruby__
 	
 __end ruby interpolation__
 
-	end-*tab*
+end-*tab*
 	
 ```html
 	<% end %>
@@ -86,7 +86,7 @@ __________________________________________________________________
 
 __GET HTTP REQUEST__
 
-	get-*tab*
+get-*tab*
 	
 ```ruby
 	get '/$1' do
@@ -96,7 +96,7 @@ __GET HTTP REQUEST__
 
 __GET HTTP Request for Index__
 
-	getindex-*tab*
+getindex-*tab*
 	
 ```ruby
 	get '/${1:entries}' do
@@ -107,7 +107,7 @@ __GET HTTP Request for Index__
 	
 __GET HTTP Request for Show__
 
-	getshow-*tab*
+getshow-*tab*
 	
 ```ruby
 	get '/${1:entries}/${2:entry}_id' do
@@ -118,7 +118,7 @@ __GET HTTP Request for Show__
 	
 __GET HTTP Request for Show *Embedded*__
 
-	getshow2-*tab*
+getshow2-*tab*
 	
 ```ruby
 	get '/${1:entries}/${2:entry}_id/${3:articles}/${4:article}_id' do
@@ -128,7 +128,7 @@ __GET HTTP Request for Show *Embedded*__
 ```
 __Post HTTP Request__
 
-	post-*tab*
+post-*tab*
 	
 ```ruby
 	post '/${1:entries}' do 
@@ -138,7 +138,7 @@ __Post HTTP Request__
 
 __Delete HTTP Request__
 
-	delete-*tab*
+delete-*tab*
 	
 ```ruby
 	delete '/' do
@@ -147,7 +147,7 @@ __Delete HTTP Request__
 ```
 __Good Looking Display Puts for Server Info__
 
-	tput-*tab*
+tput-*tab*
 	
 ```ruby
 	############################
