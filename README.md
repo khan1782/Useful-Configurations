@@ -4,7 +4,7 @@
 *  [Aliases](readmes/aliases.md)
 *  [Sinatra User Login](readmes/user-login.md)
  *  [Model](readmes/user-model.md)
- *  [Controller](readmes/user-controller.md
+ *  [Controller](readmes/user-controller.md)
  *  [Views](readmes/user-views.md)
 
 __________________________________________________________________
