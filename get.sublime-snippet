@@ -1,0 +1,9 @@
+ <snippet>
+   <content><![CDATA[get '/${1:entries}/${2:entry}_id' do
+  $4
+	erb :'${1:entries}/${3:show}'
+end]]></content>
+ 
+ <tabTrigger>getshow</tabTrigger>
+ <scope>source.ruby</scope>
+ </snippet>
