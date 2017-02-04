@@ -1,8 +1,34 @@
 # Useful-Configurations
+
+
+__________________________________________________________________
 ### ERB snippets
 
+__HTML delete form__
+formdelete-*tab*
+```html
+<form action="$1" method="post">
+ <input type="hidden" name="_method" value="delete">
+ ${4:<input type="${2:text}" name="$3">}
+ <input type="submit" value="${5:submit}">
+ </form>
+```
+
+__End Ruby Interpolation__
+end-*tab*
+```html
+<% end %>
+
+```
+__HTML Embedded Ruby__
+er-*tab*
+```html
+<% $0 %>
+```
+__________________________________________________________________
 ### Sinatra Migration Snippets
-#### create migration table
+
+__create migration table__
 create_table-*tab*
 ```ruby   
 create_table :${1:plural} do |t|
@@ -14,8 +40,16 @@ create_table :${1:plural} do |t|
 end
 ```
 
-### Sinatra Controller Snippets 
-delete http request
-```ruby
 
+__________________________________________________________________
+### Sinatra Controller Snippets 
+
+__delete http request
+delete-*tab*
+```ruby
+delete '/' do
+  $1
+ end
 ```
+
+
