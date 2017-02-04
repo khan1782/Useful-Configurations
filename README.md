@@ -9,7 +9,7 @@
 
 __________________________________________________________________
 
-# Useful-Snippets #
+## Useful-Snippets ##
 __Installing Sublime Snippets:__
 
 Copy snippets with .sublime-snippet file extensions to your sublime snippet file.
@@ -18,7 +18,7 @@ You can access this file with
 	Preferences -> Browse Packages -> User
 
 __________________________________________________________________
-### Sinatra Migration Snippets ###
+#### Sinatra Migration Snippets ####
 
 __create migration table__
 
@@ -35,7 +35,7 @@ create_table-*tab*
 ```
 	
 __________________________________________________________________
-### ERB snippets ###
+#### ERB snippets ####
 __html form for post request__
 
 formpost-*tab*
@@ -99,7 +99,7 @@ end-*tab*
 	
 
 __________________________________________________________________
-### Sinatra Controller Snippets 
+#### Sinatra Controller Snippets 
 
 __GET HTTP REQUEST__
 
