@@ -370,7 +370,7 @@ end
 
 ## Views ##
 
---New user form__
+__New user form__
 
 ```html
 <container class='registration'>
