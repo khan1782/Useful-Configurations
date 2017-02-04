@@ -126,6 +126,15 @@ getshow2-*tab*
 		erb :'${3:articles}/${5:show}'
 	end
 ```
+
+__PUT HTTP Request__
+put-*tab*
+
+```ruby
+	put '/${1:entries}/${2:entry}_id' do 
+  		$3
+	end
+```
 __Post HTTP Request__
 
 post-*tab*
