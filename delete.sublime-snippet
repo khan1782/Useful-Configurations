@@ -1,0 +1,9 @@
+
+<snippet>
+  <content><![CDATA[delete '/' do
+  $1
+  end]]></content>
+  <tabTrigger>delete</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>delete '/' do</description>
+</snippet>

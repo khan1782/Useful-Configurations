@@ -1,0 +1,11 @@
+ <snippet>
+   <content><![CDATA[get '/${1:entries}/${2:entry}_id/${3:articles}/${4:article}_id' do
+  $6
+	erb :'${3:articles}/${5:show}'
+end]]></content>
+ 
+ <tabTrigger>getshow2</tabTrigger>
+ <scope>source.ruby</scope>
+ <description>get '/entries/:entry_id/articles/:article_id' do</description>
+ </snippet>
+

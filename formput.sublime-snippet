@@ -5,7 +5,7 @@
   	<input type="${2:text}:" name="$3">
   	<input type="submit" value="${4:submit}">
 </form>]]></content>
-  <tabTrigger>putform</tabTrigger>
+  <tabTrigger>formput</tabTrigger>
   <scope>text.html.ruby</scope>
-  <description>Put Form for ERB</description>
+  <description>HTML form for put request</description>
 </snippet>

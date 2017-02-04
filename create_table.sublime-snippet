@@ -10,4 +10,5 @@ end]]></content>
  
  <tabTrigger>create_table</tabTrigger>
  <scope>source.ruby</scope>
+ <description>create_table :tablename do |t|</description>
  </snippet>

@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+<% end %>
+]]></content>
+	<tabTrigger>end</tabTrigger>
+	<scope>text.html.ruby</scope>
+	<description>ends in ice cream cones</description>
+</snippet>
