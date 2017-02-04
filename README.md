@@ -6,7 +6,8 @@ __________________________________________________________________
 __create migration table__
 
 	create_table-*tab*
-	```ruby   
+	
+	
 	create_table :${1:plural} do |t|
 		t.${2:string} :${3:column}${4:, {null: false\}}
 		t.${5:string} :${6:column}${7:, {null: false\}}
@@ -14,7 +15,7 @@ __create migration table__
 		${15:t.${12:string} :${13:column}, ${14:{null: false\}}}
 		t.timestamps
 	end
-	```
+	
 __________________________________________________________________
 ### ERB snippets ###
 __html form for post request__
