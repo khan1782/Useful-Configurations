@@ -1,3 +1,14 @@
+# Useful Things:
+
+*  [Sublime Snippets](readmes/sublime-snippets.md)
+*  [Aliases](readmes/aliases.md)
+*  [Sinatra User Login](readmes/user-login.md)
+ *  [Model](readmes/user-model.md)
+ *  [Controller](readmes/user-controller.md
+ *  [Views](readmes/user-views.md)
+
+__________________________________________________________________
+
 # Useful-Snippets #
 __Installing Sublime Snippets:__
 
@@ -235,7 +246,7 @@ __sinatra app commands__
 	alias bes='bundle exec shotgun'
 
 
-
+_________________________________________________________________________-
 # Sinatra User Login #
 
 ## Model ##
