@@ -45,8 +45,8 @@ __sinatra app commands__
 	alias dbreset='bundle exec rake db:drop && bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rake db:seed'
 	alias console='bundle exec rake console'
 	alias bes='bundle exec shotgun'
-	alias generatemigration='bundle exec rake generate:migration NAME='
-	alias generatemodel='bundle exec rake generate:model NAME='
+	alias generatemigration='bundle exec rake generate:migration'
+	alias generatemodel='bundle exec rake generate:model'
 
 
 _________________________________________________________________________-
