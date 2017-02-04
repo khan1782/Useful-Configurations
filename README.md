@@ -1,69 +1,5 @@
-# Useful-Snippets
+# Useful-Snippets #
 
-
-__________________________________________________________________
-### ERB snippets
-__HTML Form for Post Request__
-
-	formpost-*tab*
-	
-	```html
-	<form action="$1" method="post">
-		<input type="${2:text}:" name="$3">
-		<input type="${4:text}:" name="$5">
-		${8:<input type="${6:text}:" name="$7">}
-		${11:<input type="${9:text}:" name="$10">}
-		<input type="submit" value="${12:submit}">
-	</form>
-	```
-
-__HTML Form for Delete Request__
-
-	formdelete-*tab*
-	
-	```html
-	<form action="$1" method="post">
-		<input type="hidden" name="_method" value="delete">
-		${4:<input type="${2:text}" name="$3">}
-		<input type="submit" value="${5:submit}">
- 	</form>
-	```
-	
-__HTML Form for Put Request__
-
-	formput-*tab*
-	
-	```html
-	<form action="$1" method="post">
-		<input type="hidden" name="_method" value="put">
-		<input type="${2:text}:" name="$3">
-		<input type="submit" value="${4:submit}">
-	</form>
-	```
-
-__HTML Embedded Ruby__
-
-	er-*tab*
-	
-	```html
-	<% $0 %>
-	```
-__HTML Display Embedded Ruby__
-
-	pe-*tab*
-	
-	```html
-	<%= $0 %>
-	```
-	
-__End Ruby Interpolation__
-
-	end-*tab*
-	
-	```html
-	<% end %>
-	```
-	
 __________________________________________________________________
 ### Sinatra Migration Snippets
 
@@ -80,6 +16,69 @@ __create migration table__
 		t.timestamps
 	end
 	```
+__________________________________________________________________
+### ERB snippets ###
+__html form for post request__
+
+	formpost-*tab*
+	
+	```html
+	<form action="$1" method="post">
+		<input type="${2:text}:" name="$3">
+		<input type="${4:text}:" name="$5">
+		${8:<input type="${6:text}:" name="$7">}
+		${11:<input type="${9:text}:" name="$10">}
+		<input type="submit" value="${12:submit}">
+	</form>
+	```
+
+__html form for delete request__
+
+	formdelete-*tab*
+	
+	```html
+	<form action="$1" method="post">
+		<input type="hidden" name="_method" value="delete">
+		${4:<input type="${2:text}" name="$3">}
+		<input type="submit" value="${5:submit}">
+ 	</form>
+	```
+	
+__html form for put request__
+
+	formput-*tab*
+	
+	```html
+	<form action="$1" method="post">
+		<input type="hidden" name="_method" value="put">
+		<input type="${2:text}:" name="$3">
+		<input type="submit" value="${4:submit}">
+	</form>
+	```
+
+__html embedded ruby__
+
+	er-*tab*
+	
+	```html
+	<% $0 %>
+	```
+__html display embedded ruby__
+
+	pe-*tab*
+	
+	```html
+	<%= $0 %>
+	```
+	
+__end ruby interpolation__
+
+	end-*tab*
+	
+	```html
+	<% end %>
+	```
+	
 
 __________________________________________________________________
 ### Sinatra Controller Snippets 
