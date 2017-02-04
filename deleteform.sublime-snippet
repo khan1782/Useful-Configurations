@@ -1,0 +1,11 @@
+
+<snippet>
+  <content><![CDATA[<form action="$1" method="post">
+ <input type="hidden" name="_method" value="delete">
+ ${4:<input type="${2:text}" name="$3">}
+ <input type="submit" value="${5:submit}">
+ </form>]]></content>
+  <tabTrigger>deleteform</tabTrigger>
+  <scope>text.html.ruby</scope>
+  <description>Form to make delete request ERB</description>
+</snippet>
