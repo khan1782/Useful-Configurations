@@ -1,0 +1,12 @@
+ <snippet>
+   <content><![CDATA[put '/${1:entries}/${2:entry}_id' do 
+  $3
+end]]></content>
+ 
+ <tabTrigger>put</tabTrigger>
+ <scope>source.ruby</scope>
+ <description>post '/entries' do</description>
+ </snippet>
+
+ 
+ 
