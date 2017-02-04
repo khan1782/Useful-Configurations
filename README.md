@@ -4,7 +4,9 @@
 __________________________________________________________________
 ### ERB snippets
 __HTML Form for Post Request__
+
 	formpost-*tab*
+	
 	```html
 	<form action="$1" method="post">
 		<input type="${2:text}:" name="$3">
@@ -16,7 +18,9 @@ __HTML Form for Post Request__
 	```
 
 __HTML Form for Delete Request__
+
 	formdelete-*tab*
+	
 	```html
 	<form action="$1" method="post">
 		<input type="hidden" name="_method" value="delete">
@@ -26,7 +30,9 @@ __HTML Form for Delete Request__
 	```
 	
 __HTML Form for Put Request__
+
 	formput-*tab*
+	
 	```html
 	<form action="$1" method="post">
 		<input type="hidden" name="_method" value="put">
@@ -36,18 +42,24 @@ __HTML Form for Put Request__
 	```
 
 __HTML Embedded Ruby__
+
 	er-*tab*
+	
 	```html
 	<% $0 %>
 	```
 __HTML Display Embedded Ruby__
+
 	pe-*tab*
+	
 	```html
 	<%= $0 %>
 	```
 	
 __End Ruby Interpolation__
+
 	end-*tab*
+	
 	```html
 	<% end %>
 	```
@@ -56,7 +68,9 @@ __________________________________________________________________
 ### Sinatra Migration Snippets
 
 __create migration table__
+
 	create_table-*tab*
+	
 	```ruby   
 	create_table :${1:plural} do |t|
 		t.${2:string} :${3:column}${4:, {null: false\}}
@@ -69,8 +83,11 @@ __create migration table__
 
 __________________________________________________________________
 ### Sinatra Controller Snippets 
+
 __GET HTTP REQUEST__
+
 	get-*tab*
+	
 	```ruby
 	get '/$1' do
   		$2
@@ -78,7 +95,9 @@ __GET HTTP REQUEST__
 	```
 
 __GET HTTP Request for Index__
+
 	getindex-*tab*
+	
 	```ruby
 	get '/${1:entries}' do
   		$3
@@ -87,7 +106,9 @@ __GET HTTP Request for Index__
 	```
 	
 __GET HTTP Request for Show__
+
 	getshow-*tab*
+	
 	```ruby
 	get '/${1:entries}/${2:entry}_id' do
 		$4
@@ -96,7 +117,9 @@ __GET HTTP Request for Show__
 	```
 	
 __GET HTTP Request for Show *Embedded*__
+
 	getshow2-*tab*
+	
 	```ruby
 	get '/${1:entries}/${2:entry}_id/${3:articles}/${4:article}_id' do
   		$6
@@ -104,7 +127,9 @@ __GET HTTP Request for Show *Embedded*__
 	end
 	```
 __Post HTTP Request__
+
 	post-*tab*
+	
 	```ruby
 	post '/${1:entries}' do 
 		$2
@@ -112,14 +137,18 @@ __Post HTTP Request__
 	```
 
 __Delete HTTP Request__
+
 	delete-*tab*
+	
 	```ruby
 	delete '/' do
 	  $1
 	 end
 	```
 __Good Looking Display Puts for Server Info__
+
 	tput-*tab*
+	
 	```ruby
 	############################
 	 puts "*" * `tput cols`.chomp.to_i
