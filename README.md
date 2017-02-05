@@ -206,7 +206,7 @@ __easy access to bash profile__
 __shorthand commands for applications__
 
 	alias sbl='subl .'
-	alias chrome='google-chrome-stable'
+	alias chrome='google-chrome-stable & exit'
 
 __apt commands__
 
