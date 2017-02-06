@@ -206,8 +206,18 @@ __easy access to bash profile__
 __shorthand commands for applications__
 
 	alias sbl='subl .'
-	alias chrome='google-chrome-stable & exit'
+	alias chrome='google-chrome-stable'
+	alias chrome!='google-chrome-stable & exit'
+	chromeo (){
+		google-chrome-stable www."$1".com
+	}
+	phase2! (){
+		google-chrome-stable https://github.com/chi-squirrels-2017/phase-2-guide & exit
+	}
 
+	phase2 (){
+		google-chrome-stable https://github.com/chi-squirrels-2017/phase-2-guide
+	}
 __apt commands__
 
 	alias apt-get='sudo apt-get'
