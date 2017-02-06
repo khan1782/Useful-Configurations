@@ -18,6 +18,11 @@ alias ....='cd ../../../../'\
 alias x='clear && ls'
 alias c='clear'
 alias l='ls'
+mkcdir ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
 
 #git commands
 alias clone='git clone'
