@@ -3,7 +3,7 @@ alias profile='subl ~/.bashrc'
 
 #shorthand commands for applications
 alias sbl='subl .'
-alias chrome='google-chrome-stable'
+alias chrome='google-chrome-stable & exit'
 
 #apt commands
 alias apt-get='sudo apt-get'
