@@ -6,12 +6,21 @@ alias profile='subl ~/.bashrc'
 alias sbl='subl .'
 alias chrome='google-chrome-stable'
 alias chrome!='google-chrome-stable & exit'
-chrome-open (){google-chrome-stable www."$1".com}
-phase2! (){google-chrome-stable https://github.com/chi-squirrels-2017/phase-2-guide & exit}
-phase2 (){google-chrome-stable https://github.com/chi-squirrels-2017/phase-2-guide}
-configz (){google-chrome-stable https://github.com/khan1782/Useful-Configurations}
-configz! (){google-chrome-stable https://github.com/khan1782/Useful-Configurations}
-
+chrome-open (){ 
+google-chrome-stable www."$1".com 
+}
+phase2! (){ 
+google-chrome-stable https://github.com/chi-squirrels-2017/phase-2-guide & exit 
+}
+phase2 (){ 
+google-chrome-stable https://github.com/chi-squirrels-2017/phase-2-guide 
+}
+configz (){ 
+google-chrome-stable https://github.com/khan1782/Useful-Configurations 
+}
+configz! (){ 
+google-chrome-stable https://github.com/khan1782/Useful-Configurations 
+}
 #apt commands
 alias apt-get='sudo apt-get'
 alias install='sudo apt-get install'
