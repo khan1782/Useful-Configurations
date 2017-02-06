@@ -223,6 +223,11 @@ __shorthand commands__
 	alias x='clear && ls'
 	alias c='clear'
 	alias l='ls'
+	mkcdir ()
+	{
+	    mkdir -p -- "$1" &&
+	      cd -P -- "$1"
+	}
 
 __git commands__
 
