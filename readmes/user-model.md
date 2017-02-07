@@ -43,7 +43,7 @@ class User < ActiveRecord::Base
   def password=(new_password)
     @raw_password = new_password
     @password = BCrypt::Password.create(@raw_password)
-    self.hashed_password = password
+    self.hashed_password = @password
   end
 
 end
