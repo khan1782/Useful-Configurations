@@ -119,6 +119,7 @@ fi
 echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
 
 
+
 #easy access to bash profile
 alias profile='subl ~/.bashrc'
 
@@ -146,6 +147,8 @@ google-chrome-stable https://github.com/khan1782/Useful-Configurations
 alias apt-get='sudo apt-get'
 alias install='sudo apt-get install'
 alias searchfor='sudo apt-cache search'
+alias filem='thunar'
+alias space='du -sh'
 
 #shorthand commands
 alias c='cd'
@@ -177,13 +180,24 @@ alias dbcreate='bundle exec rake db:create'
 alias dbmigrate='bundle exec rake db:migrate'
 alias dbseed='bundle exec rake db:seed'
 alias dbreset='bundle exec rake db:drop && bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rake db:seed'
-alias console='clear && bundle exec rake console'
+alias console='clear && bundle exec rails console'
 alias bes='bundle exec shotgun'
 alias generatemigration='bundle exec rake generate:migration'
 alias generatemodel='bundle exec rake generate:model'
 
 #dir commands
-alias temp='cd /home/kevin/temp/'
+alias temp='cd /home/kevin/temp/ && x'
+
 alias whatsrunning='ps aux | grep ruby'
 alias restartpostgres='sudo /etc/init.d/postgresql restart' 
+
+alias gem='sudo gem'
+
+alias rs='rails server'
+
+alias qships='git clone http://github.com/khan1782/q-ships'
+alias ns='node server.js'
+alias pew='git remote add dokku dokku@174.138.68.225:pewships'
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
 
